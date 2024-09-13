@@ -13,7 +13,7 @@ public class SpfDiApplication {
         ApplicationContext ctx =  SpringApplication.run(SpfDiApplication.class, args);
 
         PersonalController personalController = (PersonalController) ctx.getBean("personalController");
-        String greeting = personalController.helloWorld();
+        String greeting = personalController.sayHello();
         System.out.println(greeting);
     }
 

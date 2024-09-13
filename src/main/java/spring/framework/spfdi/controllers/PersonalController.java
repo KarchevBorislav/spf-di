@@ -6,10 +6,10 @@ import org.springframework.stereotype.Controller;
 public class PersonalController {
 
 
-    public String helloWorld(){
+    public String sayHello(){
         System.out.println("Hello World");
 
-        return "Hi people!";
+        return "Hi guys!";
 
 
     }
