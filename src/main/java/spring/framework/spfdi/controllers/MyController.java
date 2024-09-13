@@ -1,15 +1,17 @@
 package spring.framework.spfdi.controllers;
 
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import spring.framework.spfdi.services.GreetingService;
 
+/**
+ * Created by jt on 12/26/19.
+ */
 @Controller
-public class I18nController {
+public class MyController {
 
     private final GreetingService greetingService;
 
-    public I18nController(@Qualifier("i18nService") GreetingService greetingService) {
+    public MyController(GreetingService greetingService) {
         this.greetingService = greetingService;
     }
 
