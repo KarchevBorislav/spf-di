@@ -2,7 +2,7 @@ package spring.framework.spfdi.controllers;
 
 
 import org.springframework.stereotype.Controller;
-import spring.framework.spfdi.services.PetService;
+import spring.framework.spfdi.services.animalsService.PetService;
 
 
 @Controller

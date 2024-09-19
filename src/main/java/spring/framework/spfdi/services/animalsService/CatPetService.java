@@ -1,10 +1,5 @@
-package spring.framework.spfdi.services;
+package spring.framework.spfdi.services.animalsService;
 
-import org.springframework.context.annotation.Profile;
-import org.springframework.stereotype.Service;
-
- @Service
-@Profile("cat")
 
 public class CatPetService implements PetService {
     @Override

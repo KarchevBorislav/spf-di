@@ -1,9 +1,8 @@
-package spring.framework.spfdi.services;
-
-import org.springframework.stereotype.Service;
+package spring.framework.spfdi.services.animalsService;
 
 
 public class PetServiceFactory {
+
 
 
     public PetService getPetService(String petType) {
