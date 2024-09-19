@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import spring.framework.spfdi.controllers.*;
 
+
 @SpringBootApplication
 public class SpfDiApplication {
 
