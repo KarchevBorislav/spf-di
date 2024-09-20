@@ -1,9 +1,6 @@
 package spring.framework.spfdi.configurations;
 
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Primary;
-import org.springframework.context.annotation.Profile;
+import org.springframework.context.annotation.*;
 import spring.framework.spfdi.repositories.*;
 import spring.framework.spfdi.services.*;
 
@@ -54,10 +51,7 @@ public class GreetingServiceConfig {
     }
 
 
-    @Bean
-    ConstructorGreetingServiceImpl constructorGreetingService() {
-        return new ConstructorGreetingServiceImpl();
-    }
+
 
     @Bean
     PropertyInjectedGreetingService propertyInjectedGreetingService() {
